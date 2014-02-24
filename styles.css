@@ -200,12 +200,14 @@ p {
 	position: relative;
 	left: 30px;
 	top: 50px;
+	color: #000000;
 }
 
 #header h2  a, #header  h2  a:visited,#header  .title  a,#header  .title  a:visited {
 	color: #259EA6;
 	text-decoration: none;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #000000;
 }
 
 #headertext {
@@ -217,6 +219,7 @@ p {
 	left: 30px;
 	top: 60px;
 	color: #DDDDDD;
+	/*color: #000000;*/
 }
 
 /* コンテンツ */
