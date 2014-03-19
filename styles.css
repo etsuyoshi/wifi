@@ -17,19 +17,19 @@ body {
 	
 }
 
-div, p, h1, h2, h3, h4, h5, h6 {
+div, p, h1, h2, h3, h4, h5, h6, h4_rank1, h4_rank2, h4_rank3, h4_rank4, h4_rank5{
 	margin: 0px;
 	padding: 0px;
 	display: block;
 	text-align: left;
 }
 
-h1, h2, h3, h4, .title ,.menutitle{
+h1, h2, h3, h4, h4_rank1, h4_rank2, h4_rank3, h4_rank4, h4_rank5, .title ,.menutitle{
 	font-family: 'HGP創英角ｺﾞｼｯｸUB', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W6', sans-serif;
 	font-weight:normal;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h4_rank1,h4_rank2,h4_rank3,h4_rank4,h4_rank5{
 	clear:both;
 }
 
@@ -435,6 +435,118 @@ h1 {
 	border-bottom: dotted 1px #666666;
 }
 
+#main h4_rank1  {
+	font-size: 30px;
+	line-height: 40px;
+	background-image: url(img/crown1st.png);
+	background-size: 50px 40px;
+	/*background-color: rgba(51,51,51,0.6);*/
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-position: left bottom;
+	padding-right: 8px;
+	padding-left: 100px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	border-bottom: dotted 1px #666666;
+}
+
+
+#main h4_rank2  {
+	font-size: 30px;
+	line-height: 40px;
+	background-image: url(img/crown2nd.png);
+	background-size: 50px 40px;
+	/*background-color: rgba(51,51,51,0.6);*/
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-position: left bottom;
+	padding-right: 8px;
+	padding-left: 100px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	border-bottom: dotted 1px #666666;
+}
+
+
+#main h4_rank3  {
+	font-size: 30px;
+	line-height: 40px;
+	background-image: url(img/crown3rd.png);
+	background-size: 50px 40px;
+	/*background-color: rgba(51,51,51,0.6);*/
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-position: left bottom;
+	padding-right: 8px;
+	padding-left: 100px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	border-bottom: dotted 1px #666666;
+}
+
+
+#main h4_rank4  {
+	font-size: 30px;
+	line-height: 40px;
+	background-image: url(img/crown4th.png);
+	background-size: 50px 40px;
+	/*background-color: rgba(51,51,51,0.6);*/
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-position: left bottom;
+	padding-right: 8px;
+	padding-left: 100px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	border-bottom: dotted 1px #666666;
+}
+
+#main h4_rank5  {
+	font-size: 30px;
+	line-height: 40px;
+	background-image: url(img/crown5th.png);
+	background-size: 50px 40px;
+	/*background-color: rgba(51,51,51,0.6);*/
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-position: left bottom;
+	padding-right: 8px;
+	padding-left: 100px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	border-bottom: dotted 1px #666666;
+}
+
+#main router_spec {
+
+	font-size: 20px;
+	line-height: 25px;
+	background-image: url(img/h4_original.png);
+	background-size: 25px 25px;
+	/*background-color: rgba(256,51,51,0.6);*/
+	background-repeat: no-repeat;
+	background-position: 20px 1px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-right: 8px;
+	padding-left: 50px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333333;
+	/*border-bottom: dotted 1px #666666;*/
+}
+
 #main  h5{
 	background-image: url(img/h5.png);
 	background-position: left 2px;
@@ -583,6 +695,25 @@ h1 {
 }
 
 #categorylist h4 {
+	clear: none;
+	background-image: url(img/categorylist.png);
+	background-repeat: no-repeat;
+	font-size: 15px;
+	padding-left: 35px;
+	height: 30px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	line-height: 30px;
+	padding-right: 0px;
+	background-position: left top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	border:none;
+}
+
+#categorylist h4_rank1 {
 	clear: none;
 	background-image: url(img/categorylist.png);
 	background-repeat: no-repeat;
